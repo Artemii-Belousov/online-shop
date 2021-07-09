@@ -276,12 +276,13 @@ body{
     font-size: 12px;
   }
   
-  .search-btn {
+  .search__btn {
     border: none;
     background-color: #F16D7F;;
     color: #fff;
     border-radius: 0 30px 30px 0;
     padding: 15px;
+    cursor: pointer;
   }
 
   .footer{
@@ -469,7 +470,6 @@ label:not(:last-child){
     color: #c4c4c4;
     text-decoration: none;
 }
-
 
 
 
