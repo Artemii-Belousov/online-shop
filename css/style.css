@@ -153,6 +153,7 @@ body{
     align-items: center;
 }
 
+
 .header__card{
     padding: 25px 0 12px 18px;
     font-size: 13px;
@@ -548,7 +549,11 @@ label:not(:last-child){
     background-color: #fff;
 }
 .product hr{
-    
+    max-width: 640px;
+    margin: 0 auto;
+
+    color: #DDDDDD;
+
 }
 .product__description{
     padding: 64px 0;
@@ -605,5 +610,7 @@ label:not(:last-child){
     margin-right:  23px;
     fill: #FF6A6A
 }
-
+.card__item-product{
+margin-bottom: 128px;
+}
 
