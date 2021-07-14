@@ -1,11 +1,17 @@
 
-$decore: #EF5B70;
-
+$decore: #F16D7F;
 
 .shopping{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.shopping__box{
+    width: 652px;
     margin-top: 96px;
     margin-bottom: 128px;
-    max-width: 652px;
+    
 }
 .shopping__card{
     display: flex;
@@ -15,9 +21,7 @@ $decore: #EF5B70;
 
     box-shadow: 17px 19px 24px rgba(0, 0, 0,  0.13);
 }
-// .shopping__card:not(:last-child){
-//     margin-bottom: 42px;
-// }
+
 .shopping__card:not(:nth-last-child(2)){
     margin-bottom: 42px;
 }
@@ -26,20 +30,20 @@ $decore: #EF5B70;
     top: 28px;
     right: 22px;
 }
-.shopping__img{
+.shopping__card img{
     max-height: 306px;
 }
-.shopping__description{
+.shopping__card__text{
     margin: 22px 0 0 31px;
 }
-.shopping__description h1{
+.shopping__card__text h1{
     font-size: 24px;
     line-height: 29px;
     margin-bottom: 42px;
 
     color: #222222;
 }
-.shopping__description p{
+.shopping__card__text p{
     font-size: 22px;
     line-height: 26px;
     padding-bottom: 6px;
@@ -71,8 +75,97 @@ $decore: #EF5B70;
     border: 1px solid #A4A4A4;
     padding: 16px 40px;
     margin-top: 72px;
+    cursor: pointer;
 
     color: #000000;
 }
+
+.shopping__order{
+    margin-top: 113px;
+    width: 360px;
+}
+
+.shopping__order__form{
+    padding-bottom: 57px;
+}
+.shopping__order__form h1{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+    
+    color: #222222;
+}
+.shopping__order__form input:not(:last-child){
+    margin-bottom: 20px;
+}
+.shopping__order__field{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 13px 0 13px 17px;   
+    border: 1px solid #A4A4A4;
+    width: 360px;
+
+    color: #B1B1B1;
+}
+.shopping__order__btn{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    background: none;
+    border: 1px solid #A4A4A4;
+    cursor: pointer;
+    padding: 10px 14px;
+    
+
+    color: #4A4A4A;
+}
+.shopping__order__proceed{
+    width: 360px;
+    background-color: #F5F3F3;
+    h2{
+        font-size: 11px;
+        line-height: 13px;
+        text-align: end;
+        padding: 39px 34px 12px 0;
+        color: #4A4A4A;
+
+    }
+    h1{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: end;
+        padding: 0 34px 21px 0;
+
+        color: #222222;
+    }
+    span{
+        margin-left: 25px;
+    }
+    hr{
+        width: 275px;
+        margin: 0 auto;
+        background: #E2E2E2;
+    }
+    .shopping__orde__btn{
+       display: flex;
+       justify-content: center;
+    }
+    button{
+        padding: 15px 43px;
+        margin-top: 17px;
+        margin-bottom: 42px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+
+        background-color: $decore;
+    }
+}
+
+
+
 
 
