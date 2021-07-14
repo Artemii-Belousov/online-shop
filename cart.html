@@ -25,21 +25,26 @@
             <nav class="header__nav">
                 <img class="header__item" src="img/header-nav-bar.svg" alt="">
                 <img class="header__item" src="img/user.png" alt="">
-                <img class="header__item" src="img/basket.png" alt="">
+                <a href="cart.html"><div class="header__item">
+                    <img class="header__item__cart" src="img/basket.png" alt="">
+                    <div class="header__item__text">5</div></a>
+                </div>
+
+                
             </nav>
         </div>
     </header>
     <main>
-        <header class="header__catalog">
-            <div class="container header__bar">
-                <h1 class="new__arrival">SHOPPING CART</h1> 
+        <header class="header-main">
+            <div class="container header-main__bar">
+                <h1>SHOPPING CART</h1> 
             </div>
         </header>
-        <section class="container">
-            <div class="shopping">
+        <section class="container shopping">
+            <div class="shopping__box">
                 <div class="shopping__card">
-                    <img class="shopping__img" src="img/fetured-items12.png" alt="">
-                    <div class="shopping__description">
+                    <img src="img/fetured-items12.png" alt="">
+                    <div class="shopping__card__text">
                         <h1>MANGO  PEOPLE  <br>
                             T-SHIRT</h1>
                         <p>Price: <span class="decore">$300</span></p>
@@ -52,8 +57,8 @@
                     </div>
                 </div>
                 <div class="shopping__card">
-                    <img class="shopping__img" src="img/fetured-items3.png" alt="">
-                    <div class="shopping__description">
+                    <img src="img/fetured-items3.png" alt="">
+                    <div class="shopping__card__text">
                         <h1>MANGO  PEOPLE  <br>
                             T-SHIRT</h1>
                         <p>Price: <span class="decore">$300</span></p>
@@ -73,10 +78,28 @@
                     <button class="shopping__btn__continue shopping__btn__text">
                         CONTINUE SHOPPING
                     </button>
-
-
                 </div>
                 
+            </div>
+            <div class="shopping__order">
+                <div class="shopping__order__adress">
+                    <form action="" class="shopping__order__form">
+                        <h1>SHIPPING ADRESS</h1>
+                        <input class="shopping__order__field" type="text" minlength="2"  placeholder="Bangladesh"><br>
+                        <input class="shopping__order__field" type="tel" placeholder="State"><br>
+                        <input class="shopping__order__field" type="email" placeholder="Postcode / Zip"><br>
+                        <button class="shopping__order__btn" type="submit">GET A QUOTE</button>
+                    </form>
+                    
+                </div>
+                <div class="shopping__order__proceed">
+                    <h2>SUB TOTAL <span>$900</span></h2>
+                    <h1>GRAND TOTAL <span class="decore">$900</span></h1>
+                    <hr>
+                    <div class="shopping__orde__btn">
+                        <button>PROCEED TO CHECKOUT</button>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
