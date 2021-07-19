@@ -51,15 +51,29 @@ $decore: #F16D7F;
 
     }
     .registration__button{
+        cursor: pointer;
         border: none;
         background-color: $decore;
         color: #fff;
         padding: 16px 30px;
         margin: 40px 0 96px 0;
 
+        transition: all 0.8s;
+    }
+    .registration__button:hover{
+        background: #fff;
+        color: $decore;
+        border: 1px solid $decore;
+
+        transform: rotateY(720deg);
     }
     .registration__icon{
         margin-left: 20px;
+        fill: #fff;
+        transition: all 1s;
+    }
+    .registration__button:hover .registration__icon{
+        fill: #F16D7F
     }
 }
 
@@ -80,6 +94,12 @@ $decore: #F16D7F;
         list-style: none;
         background: url(../img/advantages.svg) no-repeat;
         padding-left: 44px;
+        transform: scale(1);
+        transition: all 0.5s;
+    }
+    ul li:hover{
+        margin-left: 130px;
+        transform: scale(1.5);
         
     }
     ul li:not(:last-child){

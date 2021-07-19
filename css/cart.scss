@@ -106,9 +106,13 @@ $decore: #F16D7F;
     padding: 13px 0 13px 17px;   
     border: 1px solid #A4A4A4;
     width: 360px;
+    
 
     color: #B1B1B1;
 }
+.shopping__order__field::-webkit-inner-spin-button { 
+    display: none;
+  }
 .shopping__order__btn{
     font-weight: 300;
     font-size: 11px;

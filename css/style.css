@@ -508,6 +508,7 @@ label:not(:last-child){
     border: 1px solid #FF6A6A;
     padding: 15px 57px 15px 24px;
     color: #FF6A6A;
+    cursor: pointer;
     
 }
 .cart-btn svg{
