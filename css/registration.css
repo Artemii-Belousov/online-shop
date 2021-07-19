@@ -56,15 +56,33 @@
 }
 
 .registration .registration__button {
+  cursor: pointer;
   border: none;
   background-color: #F16D7F;
   color: #fff;
   padding: 16px 30px;
   margin: 40px 0 96px 0;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.registration .registration__button:hover {
+  background: #fff;
+  color: #F16D7F;
+  border: 1px solid #F16D7F;
+  -webkit-transform: rotateY(720deg);
+          transform: rotateY(720deg);
 }
 
 .registration .registration__icon {
   margin-left: 20px;
+  fill: #fff;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.registration .registration__button:hover .registration__icon {
+  fill: #F16D7F;
 }
 
 .advantages {
@@ -83,6 +101,16 @@
   list-style: none;
   background: url(../img/advantages.svg) no-repeat;
   padding-left: 44px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.advantages ul li:hover {
+  margin-left: 130px;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .advantages ul li:not(:last-child) {
