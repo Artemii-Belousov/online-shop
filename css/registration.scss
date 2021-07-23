@@ -1,5 +1,6 @@
 
 $decore: #F16D7F;
+
 .registration{
     display: flex;
     justify-content: space-between;
@@ -41,6 +42,11 @@ $decore: #F16D7F;
     }
     .radio__gander__text{
         margin-left: 10px;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+
+        color: #000000;
     }
     form p {
         font-weight: 300;
@@ -106,7 +112,10 @@ $decore: #F16D7F;
         
         margin-bottom: 24px;
     }
-    
 }
 
+
+@import "block/header";
+@import "block/footer";
+@import "block/feature";
 

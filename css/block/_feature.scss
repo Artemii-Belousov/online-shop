@@ -1,0 +1,31 @@
+.feature{
+    background-color: #222224;
+    
+}
+.feature__box{
+    display: flex;
+    justify-content: space-between;
+    padding: 104px 0 104px 0;
+}
+.feature__icon{
+    max-width: 315px;
+}
+.feature__img{
+    display: block;
+    margin: 0 auto;  
+    
+}
+.feature__header{
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FBFBFB;
+    margin: 19px 0 16px 0;
+}
+.feature__text{
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FBFBFB;
+}
