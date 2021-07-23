@@ -506,6 +506,10 @@ body {
   position: relative;
 }
 
+.header__item img {
+  cursor: pointer;
+}
+
 .header__item__text {
   background-color: #F16D7F;
   height: 20px;
@@ -560,14 +564,11 @@ body {
   padding-bottom: 12px;
 }
 
-.header__menu {
-  position: relative;
-}
-
 .close {
   position: absolute;
   top: 16px;
   right: 16px;
+  cursor: pointer;
 }
 
 #burger {

@@ -241,6 +241,10 @@ body {
   position: relative;
 }
 
+.header__item img {
+  cursor: pointer;
+}
+
 .header__item__text {
   background-color: #F16D7F;
   height: 20px;

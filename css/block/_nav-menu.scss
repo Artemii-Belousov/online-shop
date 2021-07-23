@@ -11,7 +11,7 @@ $decore: #F16D7F;
     width: 232px;
     height: calc(100vh - 70px);
     overflow-y: auto;
-
+    
     h2{
         font-weight: 700;
         font-size: 14px;
@@ -38,13 +38,12 @@ $decore: #F16D7F;
     }
 }
 
-.header__menu{
-    position: relative;
-}
+
 .close{
     position: absolute;
     top: 16px;
     right: 16px;
+    cursor: pointer;
 }
 #burger {
     display: none;
