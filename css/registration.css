@@ -1,190 +1,124 @@
-.shopping {
+.registration {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 64px;
 }
 
-.shopping__box {
-  width: 652px;
-  margin-top: 96px;
-  margin-bottom: 128px;
+.registration form {
+  width: 360px;
 }
 
-.shopping__card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  max-height: 306px;
-  position: relative;
-  -webkit-box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
-          box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
-}
-
-.shopping__card:not(:nth-last-child(2)) {
-  margin-bottom: 42px;
-}
-
-.close {
-  position: absolute;
-  top: 28px;
-  right: 22px;
-}
-
-.shopping__card img {
-  max-height: 306px;
-}
-
-.shopping__card__text {
-  margin: 22px 0 0 31px;
-}
-
-.shopping__card__text h1 {
-  font-size: 24px;
-  line-height: 29px;
-  margin-bottom: 42px;
+.registration form h1 {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 300;
+  margin-bottom: 20px;
   color: #222222;
 }
 
-.shopping__card__text p {
-  font-size: 22px;
-  line-height: 26px;
-  padding-bottom: 6px;
-  color: #575757;
+.registration .registration__field {
+  margin-bottom: 20px;
+  padding: 13px 0 13px 17px;
+  width: 360px;
 }
 
-.decore {
-  color: #F16D7F;
-}
-
-.quantity {
-  font-size: 18px;
-  line-height: 22px;
-  border: 1px solid #EAEAEA;
-  padding: 1px 17px;
-  margin-left: 24px;
-  color: #656565;
-}
-
-.shopping__btn {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.registration .radio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 30px 0 31px 0;
 }
 
-.shopping__btn__text {
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 17px;
-  border: none;
-  background-color: #fff;
-  border: 1px solid #A4A4A4;
-  padding: 16px 40px;
-  margin-top: 72px;
+.registration .radio__gander:not(:last-child) {
+  margin-right: 20px;
+}
+
+.registration .radio__gander {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   cursor: pointer;
+}
+
+.registration .radio__gander__text {
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
   color: #000000;
 }
 
-.shopping__order {
-  margin-top: 113px;
-  width: 360px;
-}
-
-.shopping__order__form {
-  padding-bottom: 57px;
-}
-
-.shopping__order__form h1 {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  margin-bottom: 20px;
-  color: #222222;
-}
-
-.shopping__order__form input:not(:last-child) {
-  margin-bottom: 20px;
-}
-
-.shopping__order__field {
+.registration form p {
   font-weight: 300;
   font-size: 13px;
   line-height: 16px;
-  padding: 13px 0 13px 17px;
-  border: 1px solid #A4A4A4;
-  width: 100%;
   color: #B1B1B1;
 }
 
-.shopping__order__field::-webkit-inner-spin-button {
-  display: none;
-}
-
-.shopping__order__btn {
-  font-weight: 300;
-  font-size: 11px;
-  line-height: 13px;
-  background: none;
-  border: 1px solid #A4A4A4;
+.registration .registration__button {
   cursor: pointer;
-  padding: 10px 14px;
-  color: #4A4A4A;
-}
-
-.shopping__order__proceed {
-  width: 360px;
-  background-color: #F5F3F3;
-}
-
-.shopping__order__proceed h2 {
-  font-size: 11px;
-  line-height: 13px;
-  text-align: end;
-  padding: 39px 34px 12px 0;
-  color: #4A4A4A;
-}
-
-.shopping__order__proceed h1 {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: end;
-  padding: 0 34px 21px 0;
-  color: #222222;
-}
-
-.shopping__order__proceed span {
-  margin-left: 25px;
-}
-
-.shopping__order__proceed hr {
-  width: 275px;
-  margin: 0 auto;
-  background: #E2E2E2;
-}
-
-.shopping__order__proceed .shopping__orde__btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.shopping__order__proceed button {
-  padding: 15px 43px;
-  margin-top: 17px;
-  margin-bottom: 42px;
-  color: #fff;
   border: none;
-  cursor: pointer;
   background-color: #F16D7F;
+  color: #fff;
+  padding: 16px 30px;
+  margin: 40px 0 96px 0;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.registration .registration__button:hover {
+  background: #fff;
+  color: #F16D7F;
+  border: 1px solid #F16D7F;
+  -webkit-transform: rotateY(720deg);
+          transform: rotateY(720deg);
+}
+
+.registration .registration__icon {
+  margin-left: 20px;
+  fill: #fff;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.registration .registration__button:hover .registration__icon {
+  fill: #F16D7F;
+}
+
+.advantages {
+  width: 650px;
+}
+
+.advantages h1, .advantages p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.advantages ul li {
+  list-style: none;
+  background: url(../img/advantages.svg) no-repeat;
+  padding-left: 44px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.advantages ul li:hover {
+  margin-left: 130px;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.advantages ul li:not(:last-child) {
+  margin-bottom: 24px;
 }
 
 * {
@@ -436,4 +370,4 @@ body {
   line-height: 17px;
   color: #FBFBFB;
 }
-/*# sourceMappingURL=cart.css.map */
+/*# sourceMappingURL=registration.css.map */

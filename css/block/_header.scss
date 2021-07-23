@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -13,25 +15,46 @@ body{
 }
 .header{
     background: #222222;
-    padding: 19px 0;
+    padding: 18px 0;
+    position: relative;
+    z-index: 10000;
 }
 
-.header__cont{
+.header__wrap{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .header__logo{
     margin-right: 41px;
 }
-.header__nav{
+.col-right{
     display: flex;
+    align-items: center;
 }
+
+// .header__cont{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+// .header__logo{
+//     margin-right: 41px;
+// }
+// .header__nav{
+//     display: flex;
+// }
+// .nav__wrap{
+//     position: absolute;
+// }
 .header__item:not(:last-child) {
     margin-right: 33px;
 }
 .header__item{
     position: relative;
+}
+.header__item img{
+    
+    cursor: pointer;
 }
 .header__item__text{
     background-color: #F16D7F;
