@@ -203,6 +203,10 @@ body{
     margin: 18px 0 80px 0;
     text-align: center;
 }
+.button:hover{
+    background: $decore;
+}
+
 .btn__text{
     text-align: center;
     color: #F16D7F;
@@ -212,6 +216,9 @@ body{
     display: inline-block;
     
 }
+.btn__text:hover{
+    color: #fff;
+  }
 
 /* .catalog */
 .header-main{
