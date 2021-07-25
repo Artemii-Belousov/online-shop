@@ -45,7 +45,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 500px;
+  padding-left: 52%;
   height: 764px;
   background-image: url(../img/man.png);
   background-repeat: no-repeat;
@@ -281,6 +281,13 @@ body {
   text-align: center;
 }
 
+.btn__text:hover {
+  background: #F16D7F;
+  color: #fff;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
 .btn__text {
   text-align: center;
   color: #F16D7F;
@@ -288,10 +295,6 @@ body {
   border: 1px solid;
   padding: 15px 40px;
   display: inline-block;
-}
-
-.btn__text:hover {
-  color: #fff;
 }
 
 /* .catalog */
@@ -378,7 +381,7 @@ body {
 }
 
 .btn svg:hover {
-  fill: #EF5B70;
+  fill: #F16D7F;
 }
 
 .product {
@@ -461,13 +464,13 @@ body {
   background-color: #fff;
   border: 1px solid #FF6A6A;
   padding: 15px 57px 15px 24px;
-  color: #FF6A6A;
+  color: #F16D7F;
   cursor: pointer;
 }
 
 .cart-btn svg {
   margin-right: 23px;
-  fill: #FF6A6A;
+  fill: #F16D7F;
 }
 
 .card__item-product {

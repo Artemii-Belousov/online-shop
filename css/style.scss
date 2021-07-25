@@ -1,3 +1,5 @@
+$decore: #F16D7F;
+
 
 *{
     margin: 0;
@@ -39,7 +41,7 @@ html, body {
     display: flex;
     align-items: center;
     // justify-content: flex-end;
-    padding-left: 500px;
+    padding-left: 52%;
     height: 764px;
     
     background-image: url(../img/man.png);
@@ -52,7 +54,7 @@ html, body {
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    border-left: 12px solid #F16D7F;
+    border-left: 12px solid $decore;
 }
 .decor__bold{
     font-weight: 900;
@@ -60,7 +62,7 @@ html, body {
     line-height: 58px;
 }
 .decor{
-    color: #F16D7F;
+    color: $decore;
 }
 .category{
     margin: 100px 0 118px 0;
@@ -222,28 +224,28 @@ html, body {
     padding: 18px 0 20px 18px;
     font-size: 16px;
     line-height: 19px;
-    color: #F16D7F;
+    color: $decore;
 }
 .button{
     margin: 18px 0 80px 0;
     text-align: center;
 }
-// .button:hover{
-//     background: $decore;
-// }
+.btn__text:hover{
+    background: $decore;
+    color: #fff;
+    transition: all 1s;
+}
 
 .btn__text{
     text-align: center;
-    color: #F16D7F;
+    color: $decore;
     text-decoration: none;
     border: 1px solid ;
     padding: 15px 40px;
     display: inline-block;
     
 }
-.btn__text:hover{
-    color: #fff;
-  }
+
 
 /* .catalog */
 .header-main{
@@ -258,7 +260,7 @@ html, body {
 .header-main__bar h1{
     font-size: 24px;
     line-height: 29px;
-    color: #F16D7F;
+    color: $decore;
     font-weight: 400;
 }
 .nav__link{
@@ -310,7 +312,7 @@ html, body {
     top: 50%;
 }
 .btn svg:hover{
-    fill: #EF5B70
+    fill: $decore;
 }
 .product{
     border: 1px solid #E5E5E5;
@@ -375,13 +377,13 @@ html, body {
     background-color: #fff;
     border: 1px solid #FF6A6A;
     padding: 15px 57px 15px 24px;
-    color: #FF6A6A;
+    color: $decore;
     cursor: pointer;
     
 }
 .cart-btn svg{
     margin-right:  23px;
-    fill: #FF6A6A
+    fill: $decore;
 }
 .card__item-product{
 margin-bottom: 128px;
