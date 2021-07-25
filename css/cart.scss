@@ -79,6 +79,11 @@ $decore: #F16D7F;
 
     color: #000000;
 }
+.shopping__btn__text:hover{
+    color: #fff;
+    background: $decore;
+    transition: 1s;
+}
 
 .shopping__order{
     margin-top: 113px;
@@ -105,7 +110,7 @@ $decore: #F16D7F;
     line-height: 16px;
     padding: 13px 0 13px 17px;   
     border: 1px solid #A4A4A4;
-    // width: 360px;
+    
     width: 100%;
 
     
@@ -126,6 +131,11 @@ $decore: #F16D7F;
     
 
     color: #4A4A4A;
+}
+.shopping__order__btn:hover{
+    color:#fff;
+    background: $decore;
+    transition: all 1s;
 }
 .shopping__order__proceed{
     width: 360px;
@@ -155,7 +165,7 @@ $decore: #F16D7F;
         margin: 0 auto;
         background: #E2E2E2;
     }
-    .shopping__orde__btn{
+    .proceed_checkout{
        display: flex;
        justify-content: center;
     }

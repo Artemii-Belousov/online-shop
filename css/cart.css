@@ -90,6 +90,13 @@
   color: #000000;
 }
 
+.shopping__btn__text:hover {
+  color: #fff;
+  background: #F16D7F;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 .shopping__order {
   margin-top: 113px;
   width: 360px;
@@ -136,6 +143,13 @@
   color: #4A4A4A;
 }
 
+.shopping__order__btn:hover {
+  color: #fff;
+  background: #F16D7F;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
 .shopping__order__proceed {
   width: 360px;
   background-color: #F5F3F3;
@@ -168,7 +182,7 @@
   background: #E2E2E2;
 }
 
-.shopping__order__proceed .shopping__orde__btn {
+.shopping__order__proceed .proceed_checkout {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
