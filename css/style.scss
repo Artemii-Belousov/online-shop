@@ -2,10 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    min-height: 100vh;
 }
-body{
-    font-family: 'Lato', sans-serif;
-}
+// body{
+//     font-family: 'Lato', sans-serif;
+
+// }
+html, body {
+    min-height: 100vh; // высота будет на весь экран
+    margin: 0;
+  }
+  .page {
+    display: flex;
+    flex-direction: column; // элементы выстроятся в колонку
+    justify-content: space-between; //первый и последний будет сверху и снизу экрана
+    background: pink;
+
+  }
+  
+  .main {// должен включать все элементы, кроме шапки и подвала
+     flex-grow: 1; // будет занимать все доступное пространство
+   
+  }
+  .footer {
+   margin-top: auto; // будет автоматически поддерживать авто марджин, чтобы оставаться внизу
+  }
+
+
+
 .container{
     max-width: 1160px;
     margin: 0 auto;
@@ -22,10 +46,9 @@ body{
     justify-content: flex-end;
     height: calc(100vh - 70px);
     
-    background-size: 100vh;
     background-image: url(../img/man.png);
     background-repeat: no-repeat;
-    background-position: -212px 0;
+    background-position: -212px bottom;
 }
 .intro__text{
     padding-left: 13px;
