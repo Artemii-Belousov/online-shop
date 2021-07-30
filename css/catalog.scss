@@ -44,6 +44,7 @@ padding: 0 10px 0 17px;
 
 .fiter-content {
 position: absolute;
+z-index: 10;
 background-color: #fff;
 width: 360px;
 left: 0;
@@ -80,6 +81,9 @@ color: #6F6E6E;
     display: flex;
     justify-content: center;
 
+}
+.sort__category {
+    z-index: 10;
 }
 .sort__category:not(:last-child) {
     
