@@ -57,6 +57,7 @@ summary::-webkit-details-marker {
 
 .fiter-content {
   position: absolute;
+  z-index: 10;
   background-color: #fff;
   width: 360px;
   left: 0;
@@ -94,6 +95,10 @@ summary::-webkit-details-marker {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.sort__category {
+  z-index: 10;
 }
 
 .sort__category:not(:last-child) {
