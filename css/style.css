@@ -453,6 +453,15 @@ body {
   border: none;
 }
 
+.cart-btn:hover {
+  color: #fff;
+  background-color: #F16D7F;
+}
+
+.cart-btn:hover svg {
+  fill: #fff;
+}
+
 .cart-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -466,6 +475,8 @@ body {
   padding: 15px 57px 15px 24px;
   color: #F16D7F;
   cursor: pointer;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .cart-btn svg {

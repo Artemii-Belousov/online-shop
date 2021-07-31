@@ -288,6 +288,8 @@ html, body {
 
 
 
+
+
 /* .slider__product */
 
 .slider{
@@ -370,6 +372,15 @@ html, body {
     padding: 48px 0 64px 0;
     border: none;
 }
+ .cart-btn:hover{
+    color: #fff;
+    background-color: $decore;
+    
+}
+.cart-btn:hover svg{
+    fill: #fff;
+    
+}
 .cart-btn{
     display: flex;
     align-items: center;
@@ -379,6 +390,7 @@ html, body {
     padding: 15px 57px 15px 24px;
     color: $decore;
     cursor: pointer;
+    transition: all 1s;
     
 }
 .cart-btn svg{
