@@ -144,6 +144,7 @@
 }
 
 .shopping__order__btn:hover {
+  border: 1px solid #F16D7F;
   color: #fff;
   background: #F16D7F;
   -webkit-transition: all 1s;

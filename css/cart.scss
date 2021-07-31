@@ -121,6 +121,7 @@ $decore: #F16D7F;
     display: none;
   }
 .shopping__order__btn{
+    
     font-weight: 300;
     font-size: 11px;
     line-height: 13px;
@@ -133,6 +134,7 @@ $decore: #F16D7F;
     color: #4A4A4A;
 }
 .shopping__order__btn:hover{
+    border: 1px solid $decore;
     color:#fff;
     background: $decore;
     transition: all 1s;
