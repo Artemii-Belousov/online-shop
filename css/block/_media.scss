@@ -116,7 +116,9 @@
     .header-main__bar {
         flex-direction: column;
     }
-
+    .new__arrival{
+        margin-bottom: 32px;
+    }
     .category__item:not(:last-child) {
         width: 100%;
         height: 247px;
@@ -127,6 +129,10 @@
       }
       .category {
         margin: 64px 0 64px 0;
+    }
+    .summary {
+        font-size: 12px;
+        line-height: 14px;
     }
 
     .subscribe__header {
@@ -139,6 +145,7 @@
     }
     .subscribe__form {
         width: 100%;
+        margin-top: 59px;
     }
     .subscribe--centr {
         margin-left: auto;
@@ -160,8 +167,17 @@
     .product__description > p{
         width: 326px;
         
-    }
+    }   
 }
+
+
+// @import "block/header";
+
+// @import "block/nav-menu";
+
+// @import "block/feature";
+// @import "block/footer";
+
 
 
 
