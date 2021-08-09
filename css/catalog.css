@@ -61,7 +61,7 @@ summary::-webkit-details-marker {
 
 .fiter-content {
   position: absolute;
-  z-index: 10;
+  z-index: 11;
   background-color: #fff;
   width: 360px;
   left: 0;
