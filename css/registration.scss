@@ -72,14 +72,14 @@ $decore: #F16D7F;
         padding: 16px 30px;
         margin: 40px 0 96px 0;
 
-        transition: all 0.8s;
+       transition: all 0.8s;
     }
     .registration__button:hover{
         background: #fff;
         color: $decore;
         border: 1px solid $decore;
 
-        transform: rotateY(720deg);
+        //transform: rotateY(720deg);
     }
     .registration__icon{
         margin-left: 20px;

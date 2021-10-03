@@ -87,8 +87,6 @@
   background: #fff;
   color: #F16D7F;
   border: 1px solid #F16D7F;
-  -webkit-transform: rotateY(720deg);
-          transform: rotateY(720deg);
 }
 
 .registration .registration__icon {
