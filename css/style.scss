@@ -163,7 +163,7 @@ html, body {
 
 }
 
-.overlay--btn{
+.overlayBtn{
     position: absolute;
     top: 0;
     left: 0;
@@ -193,7 +193,7 @@ html, body {
         vertical-align: middle;
     }
 }
-.card__img:hover .overlay--btn {
+.card__img:hover .overlayBtn {
     opacity: 1;
     border: none;
   }

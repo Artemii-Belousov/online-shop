@@ -195,7 +195,7 @@ body {
   position: relative;
 }
 
-.overlay--btn {
+.overlayBtn {
   position: absolute;
   top: 0;
   left: 0;
@@ -221,18 +221,18 @@ body {
   color: #fff;
 }
 
-.overlay--btn__border {
+.overlayBtn__border {
   border: 1px solid #fff;
   padding: 13px 16px;
   cursor: pointer;
 }
 
-.overlay--btn img {
+.overlayBtn img {
   margin-right: 11px;
   vertical-align: middle;
 }
 
-.card__img:hover .overlay--btn {
+.card__img:hover .overlayBtn {
   opacity: 1;
   border: none;
 }
@@ -560,6 +560,54 @@ body {
   left: 22px;
   top: -8px;
   color: #fff;
+}
+
+.col-right {
+  position: relative;
+}
+
+.basket {
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  top: 37px;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+@media (min-width: 340px) {
+  .basket {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 552px) {
+  .basket {
+    width: 500px;
+  }
+}
+
+.basketRow {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 10px;
+}
+
+.basketHeader {
+  font-weight: bold;
+}
+
+.basketTotal {
+  font-weight: bold;
+  text-align: right;
 }
 
 .header__nav {
