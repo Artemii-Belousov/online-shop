@@ -4,12 +4,12 @@ $decore: #F16D7F;
 .header__nav {
     display: flex;
     position: absolute;
-    top:78px;
+    top:60px;
     right: 0;
     padding: 0 0 20px 34px;
     background: #fff;
     width: 232px;
-    height: calc(100vh - 70px);
+    
     overflow-y: auto;
 
     h2{
